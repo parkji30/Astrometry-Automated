@@ -1,4 +1,5 @@
 # astrometry_solutions_script
+Tired of manually solving and recording multiple solutions in astrometry? Here I have created the beta version of ASS,
 A python script to automatically write solutions found by Astrometry to a text file!
 
 NOTE: you must change the directory pathing in the mp_main.py or main.py file.
