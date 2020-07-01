@@ -51,10 +51,10 @@ images.remove("solutions.txt")
 for image in images:
     print(image)
     ASTROMETRY_TERMINAL_COMMAND = 'solve-field --scale-units arcsecperpix --scale-low 6.000 --scale-high 7.000 ' + image +\
-                    ' --out "none" --overwrite --dir /home/james/Desktop/astrometry_solutions_script/solve_field_images/ --cpulimit 600'
+                    ' --overwrite --dir /home/james/Desktop/astrometry_solutions_script/solve_field_images --cpulimit 100'
 
     # print(ASTROMETRY_TERMINAL_COMMAND)
-
+    os.system("clear")
     os.system(ASTROMETRY_TERMINAL_COMMAND)
     rtn = os.popen(ASTROMETRY_TERMINAL_COMMAND).read()
     
@@ -92,4 +92,3 @@ for image in images:
     f.write(line)
     f.write('\n')
     f.close()
-    os.system("clear")
