@@ -36,9 +36,10 @@ for it in solution_values:
 line = ''
 for value in values:
     line = line + value + '   '
-    
+
 
 f = open("test3.txt", 'a')
 f.write(line)
 f.write('\n')
 f.close()
+os.system("clear")
