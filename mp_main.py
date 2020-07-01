@@ -45,6 +45,7 @@ os.chdir(CLEANED_IMAGES_PATH)
 # List images and remove solutions.txt from the list.
 images = os.listdir(CLEANED_IMAGES_PATH)
 images.remove("solutions.txt")
+images.sort()
 
 def solve_field(image):
 
