@@ -1,0 +1,1 @@
+Image Name		Field center: (RA,Dec)		Field center: (RA H:M:S, Dec D:M:S)	Field size	Field rotation angle
