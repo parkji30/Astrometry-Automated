@@ -5,11 +5,9 @@ Currently this only works for one folder of images.
 """
 
 ## PATHS AND IMPORTS
-
 import os
 os.chdir("/home/james/Desktop/astrometry_solutions_script")
 
-import os
 import numpy as np
 import astropy
 import helper_functions
@@ -42,17 +40,18 @@ for fits_file in os.listdir(RAW_IMAGES):
 # Change this variable to add any extra syntax from astometry
 # More info can be found at http://astrometry.net/doc/readme.html
 
-ASTROMETRY_TERMINAL_COMMAND = 'solve-field --scale-units arcsecperpix --scale-low 6.000 --scale-high 7.000 --out none --overwrite ' +\
-                    '--dir /home/james/Desktop/astrometry_solutions_script/solve_field_images/'
-
 os.chdir(CLEANED_IMAGES_PATH)
+
+# List images and remove solutions.txt from the list.
 images = os.listdir(CLEANED_IMAGES_PATH)
+images.remove("solutions.txt")
 
 for image in images:
-
+    print(image)
     ASTROMETRY_TERMINAL_COMMAND = 'solve-field --scale-units arcsecperpix --scale-low 6.000 --scale-high 7.000 ' + image +\
                     ' --out "none" --overwrite --dir /home/james/Desktop/astrometry_solutions_script/solve_field_images/'
-                    
+
+    # print(ASTROMETRY_TERMINAL_COMMAND)
     os.system(ASTROMETRY_TERMINAL_COMMAND)
     rtn = os.popen(ASTROMETRY_TERMINAL_COMMAND).read()
     
@@ -84,7 +83,7 @@ for image in images:
     for value in values:
         line = line + value + '   '
     
-    line = image + '                          ' + line
+    line = image + '                    ' + line
     
     f = open("solutions.txt", 'a')
     f.write(line)
