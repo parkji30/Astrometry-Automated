@@ -46,13 +46,11 @@ os.chdir(CLEANED_IMAGES_PATH)
 images = os.listdir(CLEANED_IMAGES_PATH)
 images.remove("solutions.txt")
 
-# SET TIME LIMITER ON CPU!
-
 def solve_field(image):
 
     # print(image)
     ASTROMETRY_TERMINAL_COMMAND = 'solve-field --scale-units arcsecperpix --scale-low 6.000 --scale-high 7.000 ' + image +\
-                    ' --out "none" --overwrite --dir /home/james/Desktop/astrometry_solutions_script/solve_field_images/ --cpulimit 600'
+                    ' --overwrite --dir /home/james/Desktop/astrometry_solutions_script/solve_field_images --cpulimit 100'
 
     # print(ASTROMETRY_TERMINAL_COMMAND)
 
