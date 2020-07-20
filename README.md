@@ -1,4 +1,4 @@
-# ASS (Astrometry Solutions Script)
+# Astrometry Solutions Script
 Tired of manually solving and recording multiple solutions in astrometry? Here I have created the beta version of ASS,
 A python script to automatically write solutions found by Astrometry to a text file!
 
