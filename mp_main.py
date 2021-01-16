@@ -16,13 +16,13 @@ import helper_functions
 HOME = "/home/james/Desktop/astrometry_solutions_script"
 
 # Folder that contains raw images.
-RAW_IMAGES ="/home/james/Desktop/astrometry_solutions_script/raw_images"
+RAW_IMAGES ="../raw_images/"
 
 # Folder that will or already contains filtered images.
-CLEANED_IMAGES_PATH = '/home/james/Desktop/astrometry_solutions_script/clean_images/'
+CLEANED_IMAGES_PATH = '../clean_images/'
 
 # Folder that will save junk from astrometry
-SOLVED_IMAGES_PATH =  '/home/james/Desktop/astrometry_solutions_script/solve_field_images/'
+SOLVED_IMAGES_PATH =  '../solve_field_images/'
 
 
 ## IMAGE CLEANING
