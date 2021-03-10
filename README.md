@@ -1,11 +1,12 @@
 # Astrometry Solutions Script
-Tired of manually solving and recording multiple solutions in astrometry? Here I have created the beta version of ASS,
+Tired of manually solving and recording multiple solutions in astrometry? Here I have created the beta version of AS_Script-
 A python script to automatically write solutions found by Astrometry to a text file!
 
 Two verions are offered! mp_main.py offers multiprocessing power! Which can significantly reduce the time it takes to spend solving your images.
 
-
 **you MUST change the directory pathing in the mp_main.py or main.py file.**
+
+<b>It is key you download and install astrometry prior to running this script </b>
 
 
 # Note 1
