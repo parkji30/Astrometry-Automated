@@ -6,7 +6,7 @@ Two verions are offered! mp_main.py offers multiprocessing power! Which can sign
 
 **you MUST change the directory pathing in the mp_main.py or main.py file.**
 
-**It is key you download and install astrometry prior to running this script**
+**It is key you download and install <h2>ASTROMETRY</h2> prior to running this script**
 
 
 # Note 1
