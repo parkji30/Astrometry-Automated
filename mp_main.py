@@ -6,6 +6,7 @@ Currently this only works for one folder of images.
 
 ## PATHS AND IMPORTS
 import os
+# This location needs to be changed.
 os.chdir("/home/james/Desktop/astrometry_solutions_script")
 from multiprocessing import Pool
 import numpy as np
@@ -13,7 +14,7 @@ import astropy
 import helper_functions
 
 # Folder containing the program
-HOME = "/home/james/Desktop/astrometry_solutions_script"
+HOME = "../astrometry_solutions_script"
 
 # Folder that contains raw images.
 RAW_IMAGES ="../raw_images/"
