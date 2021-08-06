@@ -19,4 +19,4 @@ ASTROMETRY_TERMINAL_COMMAND = 'solve-field --scale-units arcsecperpix --scale-lo
 
 Is the syntax which is used to run astrometry in the terminal. You can go to http://astrometry.net/doc/readme.html and add any parameters you desire.
 
-Please delete the init text files in the raw_images and solve_field images! Do this after cloning this repository otherwise your program will crash!
+<ul>Please delete the init text files in the raw_images and solve_field images!</ul> Do this after cloning this repository otherwise your program will crash!
