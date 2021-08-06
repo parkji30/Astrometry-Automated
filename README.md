@@ -1,11 +1,12 @@
 # Astrometry Solutions Script
-Tired of manually solving and recording multiple solutions in astrometry? Here I have created a very simple python script to automatically write solutions found by Astrometry to a text file!
+Here I have created a very simple python script to automatically write solutions found by Astrometry to a text file!
 
 Two verions are offered! mp_main.py offers multiprocessing power! Which can significantly reduce the time it takes to spend solving your images.
 
 **you MUST change the directory pathing in the mp_main.py or main.py file.**
-
 **It is key you download and install ASTROMETRY prior to running this script**
+
+It might be better to email me (20jjp1@queensu.ca) for setting up to program but I can guarentee that the investment will be worth it.
 
 <em>Instructions to install Astrometry</em> -- http://astrometry.net/doc/build.html
 
