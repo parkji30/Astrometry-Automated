@@ -8,8 +8,10 @@ Two verions are offered! mp_main.py offers multiprocessing power! Which can sign
 
 **It is key you download and install ASTROMETRY prior to running this script**
 
+<em>Instructions to install Astrometry</em>http://astrometry.net/doc/build.html
 
-# Note 1
+
+# IMPORTANT
 In both main.py and mp_main.py,     
 
 ASTROMETRY_TERMINAL_COMMAND = 'solve-field --scale-units arcsecperpix --scale-low 6.000 --scale-high 7.000 ' + image +\
@@ -17,5 +19,4 @@ ASTROMETRY_TERMINAL_COMMAND = 'solve-field --scale-units arcsecperpix --scale-lo
 
 Is the syntax which is used to run astrometry in the terminal. You can go to http://astrometry.net/doc/readme.html and add any parameters you desire.
 
-# Note 2
 Please delete the init text files in the raw_images and solve_field images! Do this after cloning this repository otherwise your program will crash!
