@@ -8,7 +8,7 @@ Two verions are offered! mp_main.py offers multiprocessing power! Which can sign
 
 **It is key you download and install ASTROMETRY prior to running this script**
 
-<em>Instructions to install Astrometry</em>http://astrometry.net/doc/build.html
+<em>Instructions to install Astrometry</em> -- http://astrometry.net/doc/build.html
 
 
 # IMPORTANT
