@@ -1,7 +1,7 @@
 # Astrometry Solutions Script
 Here I have created a very simple python script to automatically write solutions found by Astrometry to a text file!
 
-Two verions are offered! mp_main.py offers multiprocessing power! Which can significantly reduce the time it takes to spend solving your images.
+Two versions are offered! mp_main.py offers multiprocessing power! Which can significantly reduce the time it takes to spend solving your images.
 
 <ol>
   <li>You MUST change the directory pathing in the mp_main.py or main.py file.</li>
